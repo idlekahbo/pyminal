@@ -6,6 +6,10 @@ build:
   tools:
     python: "3.10"  # Specify the Python version directly as a string
 
+python:
+  install:
+    - requirements: requirements.txt  # Path to your requirements file
+
 # Sphinx configuration
 sphinx:
   configuration: conf.py  # Path to your Sphinx configuration file
