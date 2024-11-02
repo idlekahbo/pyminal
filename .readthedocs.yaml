@@ -5,7 +5,6 @@ build:
   os: ubuntu-20.04  # Set to Linux, as Read the Docs uses a Linux environment
   tools:
     python: "3.12"  # Specify the Python version you need
-  image: "latest"
 
 # Project configuration
 python:
