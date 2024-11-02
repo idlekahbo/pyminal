@@ -9,7 +9,4 @@ build:
 # Sphinx configuration
 sphinx:
   configuration: conf.py  # Path to your Sphinx configuration file
-
-# Build commands
-commands:
-  - make.bat html  # Use make.bat to build HTML documentation
+  build_dir: _build  # Specify the build directory for Sphinx
