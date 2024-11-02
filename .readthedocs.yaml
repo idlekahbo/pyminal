@@ -4,8 +4,7 @@ version: 2
 build:
   os: ubuntu-20.04  # Set to Linux, as Read the Docs uses a Linux environment
   tools:
-    python:
-      version: "3.8"  # Specify the Python version you need
+    python: "3.10"  # Specify the Python version directly as a string
 
 # Sphinx configuration
 sphinx:
