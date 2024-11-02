@@ -9,4 +9,3 @@ build:
 # Sphinx configuration
 sphinx:
   configuration: conf.py  # Path to your Sphinx configuration file
-  build_dir: _build  # Specify the build directory for Sphinx
